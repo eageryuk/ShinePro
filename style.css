@@ -1,0 +1,316 @@
+/* Basic Styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/hero-image.jpg') no-repeat fixed;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    opacity: 80%;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  
+  header .container img {
+    width: 70px;
+    filter: invert(100%);
+  }
+  
+    
+  /* Header */
+  header {
+  
+    background-color:black;
+    width: 100%;
+ 
+  }
+    
+  nav {
+    float: right; 
+    text-transform: uppercase;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block; 
+    margin-left: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    padding: 23px 23px;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: blue;
+  }
+  
+  /* Hero Section */
+  section{
+    width: 100%;
+    background: no-repeat;
+  }
+  .hero {
+    text-align: center;
+    padding: 40px 0; 
+  }
+  
+  .hero h1 {
+    font-size: 36px; 
+    margin-bottom: 10px; 
+  }
+  
+  .hero p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
+  
+  .hero button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px; 
+  }
+  
+ 
+  /* Services Section Index */
+  
+  .indservices {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .indservices h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  
+  }
+  .indservices img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+  
+  }
+  .indservices .container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+    
+  }
+  .indservices span{
+    display: center;
+  }
+  
+  /* Testimonials Section Index */
+  .testimonials {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  
+  }
+  
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; 
+  }
+  
+  .testimonial {
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 5px; 
+  }
+  
+  .quote-icon {
+    font-size: 3em;
+    color: red; 
+    margin-bottom: 10px;
+    display: block; 
+  }
+  
+  .author {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    margin-right: 10px;
+  }
+  .happy {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .happy h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  
+  }
+  .car-image img {
+    width: 320px;
+    height: 200px;
+    
+  }
+    
+  .contact-us, .socials {
+    margin-top: 20px; 
+  }
+  
+  /* Contact Form Styling */
+  input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: red;
+
+  }
+  
+  /* Social Icons */
+  .socials a {
+    display: inline-block; 
+    margin: 0 10px;
+  }
+  
+  .socials img {
+    width: 30px; 
+    height: auto;
+  }
+  
+  /* Google Maps */
+  .map {
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  iframe{
+    width: 80%;
+    height: 500px;
+  }
+  
+  #map {
+    height: 100%;
+  }
+  /* Hero Text */
+  .hero-text {
+    display: center;
+    
+}
+  
+   .featured-services {
+
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+
+   }
+  
+   .service {
+    width: 45%;
+          
+  }
+  
+  .service img {
+    width: 40%;
+    height: auto;
+  }
+  
+  /* Service Buttons */
+  .service button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px; 
+  }
+  .service button:hover{
+    background: red;
+  }
+  
+/* About Us */
+.about-us {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    align-items: center; 
+    padding: 40px 0;
+  }
+  
+  .feature-left {
+    flex: 1; 
+    padding-right: 20px; 
+  }
+  
+  .feature-right {
+    flex: 1;
+  }
+  
+  
+  /* Call to Action */
+  
+  .cta button {
+    background-color: #007bff; 
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+  }
+  .cta button:hover{
+     background: red;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+  }
